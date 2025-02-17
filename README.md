@@ -43,7 +43,7 @@ node index.js
 ```
 The backend server will start on `http://localhost:3000`.
 
-#### 3. Setup Frontend (excelr-leetcode-evaluator)
+### 3. Setup Frontend (excelr-leetcode-evaluator)
 ```bash
 cd ../excelr-leetcode-evaluator
 npm install
@@ -53,6 +53,14 @@ npm install
 npm run dev
 ```
 The application will be available at `http://localhost:5173`.
+
+### 4.Add data in the document
+Add `leetcode_id`, `username` and `email` in the `demo.xlsx` document.
+
+### 5. Upload the document
+- Upload the `demo.xlsx` document.
+- Click on generate the report.
+- Download the report.
 
 ## API Configuration
 The frontend communicates with the backend via API. Ensure that the backend is running and update the API URL in the frontend's environment file (.env):
